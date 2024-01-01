@@ -1,0 +1,25 @@
+{
+	"name": "ssigwart/sqs-queue-processor",
+	"license": "MIT",
+	"homepage": "https://github.com/ssigwart/sqs-queue-processor",
+	"description": "Library to process SQS queues.",
+	"keywords": ["aws", "sqs", "queue", "processor"],
+	"authors": [
+		{
+			"name": "Stephen Sigwart"
+		}
+	],
+	"autoload": {
+		"psr-4": { "ssigwart\\SqsQueueProcessor\\": "src/" }
+	},
+	"readme": "README.md",
+	"require": {
+		"php": ">=8.1.0",
+		"aws/aws-sdk-php": "^3.0",
+		"ssigwart/aws-high-availability-sqs": "^1.0",
+		"psr/log": "^3.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^10.4"
+	}
+}
